@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         [class="form"]{
+            margin: auto;
+            margin-top: 50px;
+            font-size: 13px;
+            width: 500px;
+            color: rgb(187, 186, 204);
+            background-image: linear-gradient(#1d1dd3,rgb(41, 41, 45));
+         }
+         [type]{
+            display: inline-block;
+            width: 100px;
+         }
+         [id],[for]{
+            margin-left: 30px;
+
+         }
+         [for]{
+            margin-left: 30px;
+         }
+         [type="submit"]{
+            display: block;
+            background-color: orange;
+            height: 50px;
+            width: 150px;
+            margin: auto;
+            margin-top: 40px;
+         }
+    </style>
+</head>
+<body>
+    <fieldset class="form">
+        <h1>Application Form</h1>
+        <form action="">
+            <label for="fname">First-Name</label>
+            <input type="text" name="fname" id="fname" >
+            <label for="lname">Last-Name</label>
+            <input type="text" name="lname" id="lname" ><br><br>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" style="margin-left: 50px;" >
+            <label for="num" style="margin-left: 30px;">Mobile</label>
+            <input type="number" name="mobile" id="num"  style="margin-left: 53px;"><br><br>
+            <label for="dob">Date-of-Birth</label>
+            <input type="date" name="DOB" id="dob" style="margin-left: 18px;">
+            <label for="age" style="margin-left: 30px;">Age</label>
+            <input type="number" name="age" id="age"style="margin-left:70px"><br><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male" style="margin-left: 75px;" >
+            <label for="male" style="margin-left: -30px;">Male</label>
+            <input type="radio" id="female" name="gender" value="female" style="margin-left: 130px;">
+            <label for="female" style="margin-left: -30px;">Female</label><br><br>
+            <label for="lang">Programming Language:</label><br>
+            <input type="checkbox" name="Programming" id="java" value="java">
+            <label for="java" style="margin-left: -30px;">Java</label>
+            <input type="checkbox" name="Programming" style="margin-left: 175px;" id="C#" value="C#">
+            <label for="C#" style="margin-left: -30px;">C#</label><br>
+            <input type="checkbox" name="Programming" id="js" value="js">
+            <label for="js" style="margin-left: -30px;">JavaScript</label>
+            <input type="checkbox" name="Programming" id="Python" value="Python" style="margin-left: 145px;">
+            <label for="Python" style="margin-left: -30px;">Python</label><br><br>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>
